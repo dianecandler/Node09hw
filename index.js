@@ -4,6 +4,8 @@
 
 // axios is API for backend like AJAX is for frontend
 // create file system that inquires the "api" and load to start
+// npm install --global readme-boilerplate
+
 const fs = require('fs');
 const inquirer = require('inquirer');
 const axios = require('axios');
