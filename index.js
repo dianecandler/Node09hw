@@ -82,9 +82,9 @@ inquirer
            \r\n* [Installation](#installation)
            \r\n* [Usage](#Usage)
            \r\n* [License](#License)
-           \r\n* [Installation](#installation)
-           \r\n*
-           \r\n*
+           \r\n* [Test](#Test)
+           \r\n* [Question](#Question)
+           \r\n* [Contributing](#Contributing)
            \r\n*
            \r\n## Installation
            \r\nTo install dpendencies run this command
