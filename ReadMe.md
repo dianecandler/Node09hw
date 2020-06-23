@@ -1,6 +1,6 @@
 
            
-# Homework 09 Readme Generator
+# Homework 09
            
  Created by dianecandler | https://api.github.com/users/dianecandler | null
            
@@ -8,7 +8,7 @@
            
 
            
- ![Homework 09 Readme GeneratorScreenshot](./path/to/file Homework 09 Readme GeneratorScreScreenshot.PNG?raw=true "asdlfkasdj")
+ ![Homework 09Screenshot](./path/to/file Homework 09ScreScreenshot.PNG?raw=true "readme.md generated using node.js")
            
 
            
@@ -16,7 +16,7 @@
            
 ## Description
            
- ;laskdjfdsl;kif
+ readme.md was generated completely using node.js.
            
 
            
