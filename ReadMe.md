@@ -1,12 +1,43 @@
-# Unit 09 Node.js and ES6+ Homework: Good README Generator
-Link to video of homework 09:
-https://pro.panopto.com/Panopto/Pages/Viewer.aspx?tid=f3663b97-40a4-41a3-af3f-abe301477942
+## Homework 09 - Node.js generated README.md
 
 
+# Created by Diane Candler | dianedcandler@gmail.com
 
+## Video Screenshot
 
+https://github.com/dianecandler/Node09hw and https://dianecandler.github.io/Node09hw/
 
-Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
+## Load program
+
+  At the Terminal:  node index.js
+
+## View Results in Filename:  
+
+  HW9ReadMe.md
+
+## Background
+
+This is my first Node.js project.  The goal was to create an application to generate a README.md file.
+
+## Specifics
+
+* Usage 
+any program or application needing a README.md
+* License Agreement
+none required, public file
+* Lessons Learned
+  * Numerous GitHub challenges likely contributed to the fact that files were stored in the main github directory.  Experiences numerous days of dead-lock so few commits prior to completion.  This added complexity as it was impossible to view results as the user would until files were pushed to GitHub.
+  * Node.js leverages JavaScript and has a number of modules which are not needed on the GitHub repo as they are publicly available.
+  * Success programmers will know exactly how the code responds which is absolutely critical with Node.js.  For example, using inquirer versus require may throw your entire program off.
+  * npm install --global readme-boilerplate
+  * npm install inquirer axios
+  * General goal is to create (1) file system that (2) inquires the "api" and load to start or (3) require axios.
+  * axios is an API for backend like AJAX is for the frontend
+
+# Assignment
+* Source:  The University of Texas at Austin Full Stack Coding Program
+
+* Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
 
 ```
 node index.js
@@ -14,22 +45,6 @@ node index.js
 
 The user will be prompted for their GitHub username and other information pertaining to the project the README is for.
 
-The README will be populated with the following:
-
-* At least one badge
-* Project title
-* Description
-* Table of Contents
-* Installation
-* Usage
-* License
-* Contributing
-* Tests
-* Questions
-  * User GitHub profile picture
-  * User GitHub email
-
-Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
 
 ```
 AS A developer
@@ -38,8 +53,6 @@ I WANT a README generator
 
 SO THAT I can easily put together a good README for a new project
 ```
-
-Refer to the [Good README guide](../../01-HTML-Git-CSS/04-Supplemental/Good-README-Guide/README.md).
 
 ## Business Context
 
@@ -73,26 +86,6 @@ THEN a README for the repo is generated
 ```
 - - -
 
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your code base in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have more than 200 commits by graduation, so commit early and often!
-
 ## Submission on BCS
 
 You are required to submit the following:
@@ -102,4 +95,3 @@ You are required to submit the following:
 * A generated README.md file for a project repo.
 
 * The URL of the GitHub repository
-
