@@ -20,7 +20,7 @@ inquirer
 		},
 		{
 			type: 'Input',
-			name: 'emails_url',
+			name: 'email',
 			message: 'What is your email address?'
 		},
 		{
@@ -114,7 +114,7 @@ inquirer
            
            \r\n <img src="${gitRes.data.avatar_url}" alt="avatar" style=""/>
            \r\n If you have questions, you are welcome to
-           contact${gitRes.data.name} ${gitRes.data.email}.`;
+           contact ${gitRes.data.name} ${gitRes.data.email}.`;
 			fs.writeFile('ReadMe.md', md, (err) => {
 				if (err) {
 					console.log(err);
@@ -127,4 +127,4 @@ inquirer
 	});
 
 // remember to use \r\n for spacing and spreading text
-// need to fix GitHub.  Cannot save to Node09hw so using the test branch.  Cannot write to github.com
+// fix email
