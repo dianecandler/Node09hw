@@ -107,15 +107,15 @@ inquirer
            \r\n
 		   \r\n ${response.installDep}
 
-		   \r\nView demonstration video
-		   \r\n <img src="./Viewer.htm"${display}">;
+		   \r\nView demonstration video at the link below:
+		   \r\nhttps://pro.panopto.com/Panopto/Pages/Viewer.aspx?tid=f3663b97-40a4-41a3-af3f-abe301477942
 
            
            
            \r\n <img src="${gitRes.data.avatar_url}" alt="avatar" style=""/>
            \r\n If you have questions, you are welcome to
            contact ${gitRes.data.name} ${response.email}.`;
-			fs.writeFile('ReadMe.md', md, (err) => {
+			fs.writeFile('HW9ReadMe.md', md, (err) => {
 				if (err) {
 					console.log(err);
 				}
