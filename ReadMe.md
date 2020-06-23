@@ -1,14 +1,14 @@
 
            
-# Homework 09
+# Homework 09 Readme.md
            
- Created by dianecandler | https://api.github.com/users/dianecandler | null
+ Created by dianecandler | https://api.github.com/users/dianecandler | dianedcandler@gmail.com
            
  ![npm](https: //img.shields.io/npm/v/fs) ![npm](https://img.shields.io/npm/v/inquirer) ![npm](https://img.shields.io/npm/v/axios)
            
 
            
- ![Homework 09Screenshot](./path/to/file Homework 09ScreScreenshot.PNG?raw=true "readme.md generated using node.js")
+ ![Homework 09 Readme.mdScreenshot](./path/to/file Homework 09 Readme.mdScreScreenshot.PNG?raw=true "readme file")
            
 
            
@@ -16,7 +16,7 @@
            
 ## Description
            
- readme.md was generated completely using node.js.
+ Node.js used to create readme.md file.
            
 
            
@@ -34,7 +34,7 @@
            
 * [Contributing](#Contributing)
            
-*
+* [Planned](#Planned)
            
 ## Installation
            
@@ -50,4 +50,4 @@ To install dpendencies run this command
  <img src="https://avatars3.githubusercontent.com/u/63519355?v=4" alt="avatar" style=""/>
            
  If you have questions, you are welcome to
-           contact Diane Candler null.
+           contact Diane Candler dianedcandler@gmail.com.

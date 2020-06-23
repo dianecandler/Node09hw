@@ -71,24 +71,27 @@ inquirer
 				'None'
 			]
 		},
-		{	type: 'test',
+		{
+			type: 'test',
 			name: 'Test',
 			message: 'What tests are required?'
 		},
-		{	type: 'question',
+		{
+			type: 'question',
 			name: 'Question',
 			message: 'What types of questions should be expected?'
 		},
-		{	type: 'contributing',
-		name: 'Contributing',
-		message: 'Who are the contributors?'
-	},
+		{
+			type: 'contributing',
+			name: 'Contributing',
+			message: 'Who are the contributors?'
+		}
 	])
 	.then(function (response) {
 		axios.get(`https://api.github.com/users/${response.gitHubUsername}`).then(function (gitRes) {
 			const md = `
            \r\n# ${response.projectName}
-           \r\n Created by ${gitRes.data.login} | ${gitRes.data.url} | ${gitRes.data.email}
+           \r\n Created by ${gitRes.data.login} | ${gitRes.data.url} | ${response.email}
            \r\n ![npm](https: //img.shields.io/npm/v/fs) ![npm](https://img.shields.io/npm/v/inquirer) ![npm](https://img.shields.io/npm/v/axios)
            \r\n
            \r\n ![${response.projectName}Screenshot](./path/to/file ${response.projectName}ScreScreenshot.PNG?raw=true "${response.altText}")
@@ -114,7 +117,7 @@ inquirer
            
            \r\n <img src="${gitRes.data.avatar_url}" alt="avatar" style=""/>
            \r\n If you have questions, you are welcome to
-           contact ${gitRes.data.name} ${gitRes.data.email}.`;
+           contact ${gitRes.data.name} ${response.email}.`;
 			fs.writeFile('ReadMe.md', md, (err) => {
 				if (err) {
 					console.log(err);
