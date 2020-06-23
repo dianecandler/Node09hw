@@ -108,7 +108,7 @@ inquirer
 		   \r\n ${response.installDep}
 
 		   \r\nView demonstration video
-		   \r\n <img src="./Panopto.html"${display}">;
+		   \r\n <img src="./Viewer.htm"${display}">;
 
            
            
