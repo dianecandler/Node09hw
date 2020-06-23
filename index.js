@@ -105,7 +105,11 @@ inquirer
            \r\nTo install dpendencies run this command
            \r\n\
            \r\n
-           \r\n ${response.installDep}
+		   \r\n ${response.installDep}
+
+		   \r\nView demonstration video
+		   \r\n <img src="./Panopto.html"${display}">;
+
            
            
            \r\n <img src="${gitRes.data.avatar_url}" alt="avatar" style=""/>

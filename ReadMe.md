@@ -8,7 +8,7 @@
            
 
            
- ![Homework 09 Readme.mdScreenshot](./path/to/file Homework 09 Readme.mdScreScreenshot.PNG?raw=true "readme file")
+ ![Homework 09 Readme.mdScreenshot](./path/to/file Homework 09 Readme.mdScreScreenshot.PNG?raw=true "readme created by node.js")
            
 
            
@@ -16,7 +16,7 @@
            
 ## Description
            
- Node.js used to create readme.md file.
+ This project was created in Node.js to generate a Readme.md file.
            
 
            
