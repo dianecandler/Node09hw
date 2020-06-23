@@ -1,16 +1,9 @@
-// Learning Assistants or BCS couldn't fix GitHub conflicts so not pushing content.
-// npm install inquirer axios
-// node index.js
-
-// axios is API for backend like AJAX is for frontend
-// create file system that inquires the "api" and load to start
-// npm install --global readme-boilerplate
+// Homework 09 Generate Readme.md using Node.js
 
 const fs = require('fs');
 const inquirer = require('inquirer');
 const axios = require('axios');
 
-// this should be an inquirer not require
 inquirer
 	.prompt([
 		{
@@ -130,4 +123,10 @@ inquirer
 	});
 
 // remember to use \r\n for spacing and spreading text
-// fix email
+// email is now an input field
+// Learning Assistants or BCS couldn't fix GitHub conflicts so not pushing content.
+// npm install inquirer axios
+// node index.js
+// axios is API for backend like AJAX is for frontend
+// General goal is to create file system that inquires the "api" and load to start
+// npm install --global readme-boilerplate
