@@ -7,13 +7,9 @@
 
 https://github.com/dianecandler/Node09hw and https://dianecandler.github.io/Node09hw/
 
-## Load program
+## Run program at a terminal:  node index.js
 
-  At the Terminal:  node index.js
-
-## View Results in Filename:  
-
-  HW9ReadMe.md
+## View Results in Filename:   HW9ReadMe.md
 
 ## Background
 
