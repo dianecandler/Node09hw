@@ -20,6 +20,11 @@ inquirer
 		},
 		{
 			type: 'Input',
+			name: 'emails_url',
+			message: 'What is your email address?'
+		},
+		{
+			type: 'Input',
 			name: 'projectName',
 			message: 'What is title or name of your project?'
 		},
@@ -65,13 +70,25 @@ inquirer
 				'MIT',
 				'None'
 			]
-		}
+		},
+		{	type: 'test',
+			name: 'Test',
+			message: 'What tests are required?'
+		},
+		{	type: 'question',
+			name: 'Question',
+			message: 'What types of questions should be expected?'
+		},
+		{	type: 'contributing',
+		name: 'Contributing',
+		message: 'Who are the contributors?'
+	},
 	])
 	.then(function (response) {
 		axios.get(`https://api.github.com/users/${response.gitHubUsername}`).then(function (gitRes) {
 			const md = `
            \r\n# ${response.projectName}
-           \r\n Created by ${gitRes.data.login} | ${gitRes.data.url}
+           \r\n Created by ${gitRes.data.login} | ${gitRes.data.url} | ${gitRes.data.email}
            \r\n ![npm](https: //img.shields.io/npm/v/fs) ![npm](https://img.shields.io/npm/v/inquirer) ![npm](https://img.shields.io/npm/v/axios)
            \r\n
            \r\n ![${response.projectName}Screenshot](./path/to/file ${response.projectName}ScreScreenshot.PNG?raw=true "${response.altText}")
