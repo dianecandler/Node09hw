@@ -104,7 +104,7 @@ inquirer
            \r\n* [Test](#Test)
            \r\n* [Question](#Question)
            \r\n* [Contributing](#Contributing)
-           \r\n*
+           \r\n* [Planned](#Planned)
            \r\n## Installation
            \r\nTo install dpendencies run this command
            \r\n\
