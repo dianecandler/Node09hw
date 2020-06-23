@@ -1,6 +1,6 @@
 
            
-# Homework 09
+# Homework 09 Generate Readme.md using Node.js
            
  Created by dianecandler | https://api.github.com/users/dianecandler | null
            
@@ -8,7 +8,7 @@
            
 
            
- ![Homework 09Screenshot](./path/to/file Homework 09ScreScreenshot.PNG?raw=true "Homework 09 Readme.md file creation")
+ ![Homework 09 Generate Readme.md using Node.jsScreenshot](./path/to/file Homework 09 Generate Readme.md using Node.jsScreScreenshot.PNG?raw=true "Node.js generated Readme.md")
            
 
            
@@ -16,7 +16,7 @@
            
 ## Description
            
- Creating a readme.md file for Homework 09 using Node.js.
+ Generated readme.md with table of contents and other information using node.js.
            
 
            
@@ -43,11 +43,11 @@ To install dpendencies run this command
            
 
            
- npm i
+ npi i
            
            
            
  <img src="https://avatars3.githubusercontent.com/u/63519355?v=4" alt="avatar" style=""/>
            
  If you have questions, you are welcome to
-           contactDiane Candler null.
+           contact Diane Candler null.
