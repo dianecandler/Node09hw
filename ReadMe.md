@@ -1,14 +1,14 @@
 
            
-# HWreadme09
+# Homework 09
            
- Created by dianecandler | https://api.github.com/users/dianecandler
+ Created by dianecandler | https://api.github.com/users/dianecandler | null
            
  ![npm](https: //img.shields.io/npm/v/fs) ![npm](https://img.shields.io/npm/v/inquirer) ![npm](https://img.shields.io/npm/v/axios)
            
 
            
- ![HWreadme09Screenshot](./path/to/file HWreadme09ScreScreenshot.PNG?raw=true "Homework 09 generate readme.md")
+ ![Homework 09Screenshot](./path/to/file Homework 09ScreScreenshot.PNG?raw=true "Homework 09 Readme.md file creation")
            
 
            
@@ -16,7 +16,7 @@
            
 ## Description
            
- Creating readme file using node.js
+ Creating a readme.md file for Homework 09 using Node.js.
            
 
            
@@ -28,11 +28,11 @@
            
 * [License](#License)
            
-* [Installation](#installation)
+* [Test](#Test)
            
-*
+* [Question](#Question)
            
-*
+* [Contributing](#Contributing)
            
 *
            
@@ -43,7 +43,7 @@ To install dpendencies run this command
            
 
            
- npm install inquirer axios
+ npm i
            
            
            
